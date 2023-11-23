@@ -10,8 +10,8 @@ import "swiper/css/pagination";
 
 // import required modules
 import { EffectFade, Navigation, Pagination, Autoplay } from "swiper/modules";
-import Slider1 from "../assets/dr-mayte.jpg";
-import Slider2 from "../assets/galery-3.jpg";
+import Slider1 from "../assets/bg-movil.jpg";
+import Slider2 from "../assets/bg-movil-2.jpg";
 import "../styles/heromovil.css";
 
 const HeroMovil = () => {
@@ -31,8 +31,8 @@ const HeroMovil = () => {
           <img src={Slider1} className="img-slider" />
           <div className="texto-hero">
             <div className="container-texto-hero">
-              <h2>Dental Sonrix</h2>
-              <p>Tu mejor opción para volver a sonreir</p>
+              <h2>Laboratorio Dental en CDMX</h2> <br />
+              <p>Laboratorio Dental con envíos a domicilio en toda la ciudad. Cotiza tus trabajos.</p>
             </div>
           </div>
         </SwiperSlide>
@@ -40,8 +40,8 @@ const HeroMovil = () => {
           <img src={Slider2} className="img-slider" />
           <div className="texto-hero">
             <div className="container-texto-hero">
-              <h2>Dental Sonrix</h2>
-              <p>Recupera tu confianza con nosotros</p>
+              <h2>Laboratorio Dental en CDMX</h2> <br />
+              <p>Laboratorio Dental con envíos a domicilio en toda la ciudad. Cotiza tus trabajos.</p>
             </div>
           </div>
         </SwiperSlide>

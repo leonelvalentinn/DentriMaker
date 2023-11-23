@@ -3,65 +3,31 @@ import { Element } from "react-scroll";
 import "../styles/about.css";
 
 const About = () => {
-  const Somos = [
-    {
-      id: 1,
-      title: "Nosotros",
-      texto:
-        "Somos una clínica dental vanguardista y actualizada en los últimos conceptos de la odontología, permitiéndonos ofrecer tratamientos innovadores y estéticos, devolviendo la salud y función de las estructuras orales.",
-      texto2:
-        "Trabajando de la mano con un equipo de especialistas, ofreciendo la más alta calidad en cada uno de nuestros servicios. Con un enfoque en odontología estética.",
-    },
-    {
-      id: 2,
-      title: "Nosotros",
-      texto:
-        "Todos los integrantes de Dental Sonrix estamos avalados y certificados en nuestra especialidad. Estamos para brindarte una atención personalizada y un servicio integral, para lograr que tu sonrisa se vea como la imaginas.",
-      texto2:
-        "Nos mantenemos constantemente actualizados para ofrecerte lo último en tecnología y los tratamientos más innovadores.",
-    },
-  ];
-
-  const [isSlider, setIsSlider] = useState(false);
-
-  const hadleSlider = (e) => {
-    setIsSlider(!isSlider);
-    let event = e.target.id;
-    console.log(event);
-    textSlider(event);
-  };
-
-  const textSlider = (event) => {
-    let container = document.getElementById("aboutSlider");
-    container.innerHTML = "";
-    Somos.filter((text) => text.id == event).map((text) => {
-      container.innerHTML += `
-      <h2 className="text-title" >${text.title}</h2>
-        <p className="text-event" id="texto1">${text.texto}</p>
-        <p className="text-event" id="texto2">${text.texto2}</p>
-        
-        
-        `;
-    });
-  };
   return (
     <div className="about" id="nosotros">
       <div className="container-about">
         <div className="about-slider" id="aboutSlider">
-          <div className={`textos ${isSlider ? "show" : ""}`}>
-            <h2>Nosotros</h2>
+          <div className="textos">
+            <h2>¿Qué es un Laboratorio Dental Digital?</h2>
             <span>
-              Somos una clínica dental vanguardista y actualizada en los últimos conceptos 
-              de la odontología, permitiéndonos ofrecer tratamientos innovadores y estéticos, 
-              devolviendo la salud y función de las estructuras orales. 
+              Un <strong>laboratorio dental</strong> es donde se elaboran las piezas y prótesis dentales. En el pasado estas piezas se elaboraban a mano. Gracias al desarrollo tecnológico ahora los laboratorios dentales cuentan con tecnología digital, esta es denominada CAD/CAM, y los hace más eficaces y modernos.  
             </span>
             <span>
-              Trabajando de la mano con un equipo de especialistas, ofreciendo la más alta 
-              calidad en cada uno de nuestros servicios. Con un enfoque en odontología estética.
+              Con la tecnología CAD/CAM, los profesionales dentales ofrecen a sus pacientes un servicio de alta calidad. Además, con la adaptación a esta tecnología, la odontología ha dado un gran paso, ya que la elaboración de las prótesis dentales es mucho más rápida y eficaz.
+            </span>
+            <h2 className="h2-2">La Tecnología CAD/CAM y el Taller Dental</h2>
+            <span>
+              El <strong>taller dental</strong> ahora es digital con la tecnología CAD/CAM, esta permite que los procedimientos sean mucho más precisos al momento de elaborar las restauraciones dentales. Con este el técnico dental puede hacer pilares para implantes, carillas, coronas de cerámica fresada y puentes. 
+            </span>
+            <span>
+              En el laboratorio dental Dentrimaker se fabrican todas las restauraciones dentales en una computadora. Por medio de un escáner óptico se capta la imagen de las piezas dentales del paciente. Seguidamente, esa imagen 3D es la que se utiliza para poder diseñar la prótesis dental de manera que se vea natural.
+            </span>
+            <span>
+              Una vez hecho el diseño, con el software CAD, las piezas se deben fresar y personalizar para lograr una apariencia natural. Además, es muy importante que se ajusten perfectamente al paciente. Luego de esto, las piezas son sometidas a altas temperaturas para pulirlas y dar por terminada su elaboración.
             </span>
           </div>
         </div>
-        <button
+        {/*<button
           className="btn-about"
           id="1"
           onClick={(e) => hadleSlider(e, !isSlider)}
@@ -74,7 +40,7 @@ const About = () => {
           onClick={(e) => hadleSlider(e, !isSlider)}
         >
           2
-        </button>
+  </button>*/}
       </div>
     </div>
   );

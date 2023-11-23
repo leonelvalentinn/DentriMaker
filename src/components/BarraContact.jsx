@@ -8,7 +8,7 @@ const BarraContact = () => {
           <h3>Contacto</h3>
           <p>Agenda tu cita en solo unos minutos.</p>
           <a
-            href="https://api.whatsapp.com/send?phone=525652700762"
+            href="https://api.whatsapp.com/send?phone=525619107396"
             target="_blank"
             className="btn-rosa"
           >

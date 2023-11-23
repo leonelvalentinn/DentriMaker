@@ -14,7 +14,7 @@ const Footer = () => {
                 Juárez, 03200 Ciudad de México, CDMX
               </h3>
               <a
-                href="https://api.whatsapp.com/send?phone=525652700762"
+                href="https://api.whatsapp.com/send?phone=525619107396"
                 target="_blank"
                 className="btn-rosa"
               >
@@ -40,14 +40,14 @@ const Footer = () => {
             <p>Desarrollado por Agencia de Marketing Dentarios © 2023</p>
           </div>
           <div className="item-footer-footer">
-            <a href="tel:5652700762" target="_blank">
-              <i className="fa-solid fa-phone"></i> 5652700762
+            <a href="tel:5619107396" target="_blank">
+              <i className="fa-solid fa-phone"></i> 5619107396
             </a>
             <a
-              href="https://api.whatsapp.com/send?phone=525652700762"
+              href="https://api.whatsapp.com/send?phone=525619107396"
               target="_blank"
             >
-              <i className="fa-brands fa-square-whatsapp"></i> +525652700762
+              <i className="fa-brands fa-square-whatsapp"></i> +525619107396
             </a>
           </div>
         </div>

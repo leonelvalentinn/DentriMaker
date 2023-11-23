@@ -56,18 +56,18 @@ const Promociones = () => {
       </div>
       <div className="container-fixed animado" id="animado">
         <div className="tel-fixed">
-        <a href="tel:5652700762" target="_blank" rel="noopener noreferrer">
+        <a href="tel:5619107396" target="_blank" rel="noopener noreferrer">
           <img src={tel} alt="" />
         </a>
         </div>
         <div className="urgencias-fixed">
-          <a href="https://api.whatsapp.com/send?phone=525652700762" target="_blank" rel="noopener noreferrer">
+          <a href="https://api.whatsapp.com/send?phone=525619107396" target="_blank" rel="noopener noreferrer">
             <img src={whats} alt="" />
           </a>
         </div>
-        <div className="txt-urgencia">
+        {/*<div className="txt-urgencia">
           <h4>Urgencias Dentales</h4>
-      </div>
+      </div> */}
       </div>
       
     </div>

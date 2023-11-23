@@ -4,6 +4,7 @@
   height: 70%;
   position: relative;
   display: none;
+  margin-top: 95px;
 }
 .texto-hero {
   position: absolute;
@@ -13,11 +14,11 @@
   top: 0;
   display: flex;
   justify-content: center;
-  align-items: flex-end;
+  align-items: center;
 }
 .container-texto-hero {
   width: 90%;
-  backdrop-filter: blur(10px);
+  /*backdrop-filter: blur(10px);*/
   background-color: rgba(62, 96, 111, 0.5);
   margin-bottom: 30px;
   display: flex;
@@ -25,6 +26,7 @@
   align-items: center;
   flex-direction: column;
   padding: 10px;
+  text-align: center;
 }
 .container-texto-hero h2 {
   color: #fff;
@@ -40,6 +42,27 @@
 }
 .img-escritorio {
   display: none;
+}
+.botones {
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+.botones a {
+  text-decoration: none;
+  color: white;
+  padding: 10px 15px;
+  transition: all 0.275s linear;
+}
+.botones a[href="https://api.whatsapp.com/send/?phone=5619107396"] {
+  background-color: #00bb2d;
+  margin-right: 20px;
+}
+.botones a[href="tel:5619107396"] {
+  background-color: white;
+  color: black;
+}
+.botones a:hover {
+  transition: all 0.275s linear;
 }
 @media (min-width: 768px) {
   .hero {
@@ -59,7 +82,7 @@
 
   .container-texto-hero {
     width: 50%;
-    backdrop-filter: blur(10px);
+    /*backdrop-filter: blur(10px);*/
     background-color: rgba(62, 96, 111, 0.5);
     margin-bottom: 30px;
     display: flex;

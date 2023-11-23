@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Link } from "react-scroll";
-import Logo from "../assets/logotipo-sonrix.png";
+import Logo from "../assets/logo-noBG-dentrimaker.png";
 import Menu from "../assets/menu.png";
 import "../styles/navbar.css";
 
@@ -13,23 +13,23 @@ const Navbar = () => {
         {/*<div className="header-top">
           <div className="item-header-top">
             <p>Teléfono</p>
-            <a href="tel:5652700762" target="_blank">
-              5652700762
+            <a href="tel:5619107396" target="_blank">
+              5619107396
             </a>
           </div>
           <div className="item-header-top whatsapp">
             <p>Whatsapp</p>
             <a
-              href="https://api.whatsapp.com/send?phone=525652700762"
+              href="https://api.whatsapp.com/send?phone=525619107396"
               target="_blank"
             >
-              +525652700762
+              +525619107396
             </a>
           </div>
           <div className="urgencias item-header-top">
             <div className="btn-urgencias">
               <a
-                href="https://api.whatsapp.com/send?phone=525652700762"
+                href="https://api.whatsapp.com/send?phone=525619107396"
                 target="_blank"
               >
                 Urgencias Dentales
@@ -39,9 +39,10 @@ const Navbar = () => {
         </div>*/}
         <div className="menu">
           <div className="container-menu">
-            <div className="container-logo">
+            <a className="container-logo" href="/">
               <img src={Logo} alt="" />
-            </div>
+              <h2>Dentrimaker</h2>
+            </a>
             <nav className={`menu-nav ${openMenu ? "openMenu" : ""}`}>
               <Link
                 to="inicio"

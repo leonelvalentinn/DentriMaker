@@ -10,6 +10,7 @@ import Footer from "../components/Footer";
 import HeroMovil from "../components/HeroMovil";
 import Modal from "../components/Modal";
 import Video from "../components/Video";
+import Nosotros from "../components/Nosotros";
 
 const Home = () => {
   return (
@@ -17,8 +18,9 @@ const Home = () => {
       <Navbar />
       <HeroMovil />
       <Hero />
-      <Services />
+      <Nosotros />
       <About />
+      <Services />
       <Video />
       <Promociones/>
       <BarraContact />

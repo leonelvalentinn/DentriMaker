@@ -83,7 +83,7 @@ const Services = () => {
        <h2>${item.title} </h2>
        <p>${item.texto} </p>
        <a
-       href="https://api.whatsapp.com/send?phone=525652700762"
+       href="https://api.whatsapp.com/send?phone=525619107396"
        target="_blank"
             id="btnAncla"
             
@@ -98,9 +98,12 @@ const Services = () => {
 
   return (
     <div className="services" id="servicios">
-      <h2 className="title-services">Servicios</h2>
+      <div className="servicios-container">
+        <h2 className="title-services">Servicios</h2>
+        <hr />
+      </div>
       <div className="container-services">
-        <div className="item-services">
+        <div className="card">
           <img src={Services1} alt="" />
           <h2>Odontología General</h2>
           <button
@@ -111,7 +114,7 @@ const Services = () => {
             Ver más
           </button>
         </div>
-        <div className="item-services">
+        <div className="card">
           <img src={Services2} alt="" />
           <h2>Odontología Estética</h2>
           <button
@@ -122,7 +125,7 @@ const Services = () => {
             Ver más
           </button>
         </div>
-        <div className="item-services">
+        <div className="card">
           <img src={Services3} alt="" />
           <h2>Ortodoncia</h2>
           <button
@@ -133,7 +136,7 @@ const Services = () => {
             Ver más
           </button>
         </div>
-        <div className="item-services">
+        <div className="card">
           <img src={Services4} alt="" />
           <h2>Endodoncia</h2>
           <button
@@ -144,7 +147,7 @@ const Services = () => {
             Ver más
           </button>
         </div>
-        <div className="item-services">
+        <div className="card">
           <img src={Services5} alt="" />
           <h2>Prótesis</h2>
           <button
@@ -155,7 +158,7 @@ const Services = () => {
             Ver más
           </button>
         </div>
-        <div className="item-services">
+        <div className="card">
           <img src={Services6} alt="" />
           <h2>Cirugía Oral</h2>
           <button
@@ -166,7 +169,7 @@ const Services = () => {
             Ver más
           </button>
         </div>
-        <div className="item-services">
+        <div className="card">
           <img src={Services7} alt="" />
           <h2>Implantología Dental</h2>
           <button
@@ -177,7 +180,7 @@ const Services = () => {
             Ver más
           </button>
         </div>
-        <div className="item-services">
+        <div className="card">
           <img src={Services8} alt="" />
           <h2>Periodoncia</h2>
           <button
@@ -188,7 +191,7 @@ const Services = () => {
             Ver más
           </button>
         </div>
-        <div className="item-services item-8">
+        <div className="card item-8">
           <h2>
             Dental Sonrix <br/> Trabaja para ti{" "}
           </h2>
@@ -198,7 +201,7 @@ const Services = () => {
             vea como la imaginas.
           </p>
           <a
-            href="https://api.whatsapp.com/send?phone=525652700762"
+            href="https://api.whatsapp.com/send?phone=525619107396"
             target="_blank"
           >
             Contacto
