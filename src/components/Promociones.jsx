@@ -42,11 +42,18 @@ const Promociones = () => {
   //Script para comprobar la altura del scroll
   return (
     <div>
-      <div className="promo">
+      <div className="promo" id="nosotros">
         <div className="title">
           <h2>Promociones</h2>
         </div>
         <section className="promociones">
+          <div className="container-txt-promo">
+            <h2>¡Bienvenidos a Dentrimaker!</h2>
+            <h4>Contamos con servicios de calidad para tus pacientes, somos expertos en Prótesis. Pregunta por las promociones del mes.</h4>
+            <a href="https://api.whatsapp.com/send?phone=525619107396" target="_blank" rel="noopener noreferrer">
+              Contáctanos
+            </a>
+          </div>
           <img src={promocion2} alt="" className="promotion-img" />
         </section>
       </div>

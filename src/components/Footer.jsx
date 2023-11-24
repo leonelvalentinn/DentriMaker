@@ -33,11 +33,15 @@ const Footer = () => {
             </div>
           </div>
         </div>
+        <div className="lab">
+          <h4>LABORATORIO DENTAL CDMX BENITO JUÁREZ</h4>
+          <h2>Usa tu tiempo para atender a tus pacientes y no para lidiar con tu Laboratorio Dental.</h2>
+        </div>
         <div className="footer-1">
           <div className="item-footer-footer-1">
             <h4>LABORATORIO DENTAL A LA PUERTA DE TU CONSULTORIO</h4>
             <h1>Recolecciones a domicilio sin costo extra.</h1>
-            <a href="" target="_blank">
+            <a href="tel:5619107396" target="_blank">
               Contáctanos
             </a>
           </div>

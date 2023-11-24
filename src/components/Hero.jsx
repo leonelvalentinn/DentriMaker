@@ -48,7 +48,7 @@ const Hero = () => {
       </div>
     </div>*/}
     {/* Termina HTML del modal */}
-      <div className="hero">
+      <div className="hero" id="inicio">
       <img src={Foto1} alt="" className="img-escritorio" />
       <img src={Foto2} alt="" className="img-movil" />
       <div className="texto-hero">

@@ -13,7 +13,31 @@
   max-width: 100%;
   object-fit: cover;
   border-radius: 10px;
-  box-shadow: 8px 8px 8px gray;
+  box-shadow: 8px 8px 8px 8px gray;
+}
+.container-txt-promo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;  
+}
+.container-txt-promo h2 {
+  color: #0e74ba;
+}
+.container-txt-promo h4 {
+  margin: 15px 0;
+}
+.container-txt-promo a {
+  text-decoration: none;
+  color: white;
+  padding: 10px 15px;
+  background-color: #0e74ba;
+  transition: all 0.275s linear;
+}
+.container-txt-promo a:hover {
+  background-color: rgb(8, 173, 8);
+  transition: all 0.275s linear;
 }
 .buenfin {
   border: 5px solid rgb(201, 0, 0);
@@ -109,7 +133,7 @@
     font-size: 2em;
   }
   .promociones {
-    grid-template-columns: repeat(1, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     place-items: center;
     gap: 0px;
     margin-top: 3%;
@@ -137,6 +161,12 @@
     right: 55px;
     bottom: 115px;
     font-size: 18px;
+  }
+  .container-txt-promo h2 {
+    font-size: 1.8em;
+  }
+  .container-txt-promo h4 {
+    font-size: 1.4em;
   }
   @keyframes urgencias {
     0% {

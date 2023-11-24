@@ -25,7 +25,7 @@ const Nosotros = () => {
           <hr />
         </div>
         <section className="nosotros">
-        <div className="slider-nosotros" id="inicio">
+        <div className="slider-nosotros">
           <Swiper
             spaceBetween={30}
             effect={"fade"}

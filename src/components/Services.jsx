@@ -99,7 +99,7 @@ const Services = () => {
   };
 
   return (
-    <div className="services" id="servicios">
+    <div className="services" id="servicio">
       <div className="servicios-container">
         <h2 className="title-services">Servicios</h2>
         <hr />
@@ -220,7 +220,7 @@ const Services = () => {
       </div>
 
 
-      <div className="container-protesis">
+      <div className="container-protesis" id="servicios">
         <div className="title">
           <h2>Expertos en Prótesis Dentales</h2>
           <hr className="hr-experto"/>

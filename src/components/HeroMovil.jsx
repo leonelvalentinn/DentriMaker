@@ -16,7 +16,7 @@ import "../styles/heromovil.css";
 
 const HeroMovil = () => {
   return (
-    <div className="slider" id="inicio">
+    <div className="slider">
       <Swiper
         spaceBetween={30}
         effect={"fade"}

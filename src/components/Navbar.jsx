@@ -49,7 +49,7 @@ const Navbar = () => {
                 activeClass="active"
                 spy={true}
                 smooth={true}
-                offset={-50}
+                offset={-100}
                 duration={500}
                 className="menu-link"
                 onClick={() => isOpenMenu(false)}
@@ -57,11 +57,11 @@ const Navbar = () => {
                 Inicio
               </Link>
               <Link
-                to="nosotros"
+                to="servicio"
                 activeClass="active"
                 spy={true}
                 smooth={true}
-                offset={-50}
+                offset={-100}
                 duration={500}
                 className="menu-link"
                 onClick={() => isOpenMenu(false)}
@@ -73,7 +73,7 @@ const Navbar = () => {
                 activeClass="active"
                 spy={true}
                 smooth={true}
-                offset={-50}
+                offset={-100}
                 duration={500}
                 className="menu-link"
                 onClick={() => isOpenMenu(false)}
@@ -81,11 +81,11 @@ const Navbar = () => {
                 Prótesis Dentales
               </Link>
               <Link
-                to="promo"
+                to="nosotros"
                 activeClass="active"
                 spy={true}
                 smooth={true}
-                offset={-50}
+                offset={-100}
                 duration={500}
                 className="menu-link"
                 onClick={() => isOpenMenu(false)}
@@ -97,7 +97,7 @@ const Navbar = () => {
                 activeClass="active"
                 spy={true}
                 smooth={true}
-                offset={-50}
+                offset={-80}
                 duration={500}
                 className="menu-link"
                 onClick={() => isOpenMenu(false)}
