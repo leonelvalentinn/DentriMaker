@@ -21,10 +21,8 @@ const Home = () => {
       <Nosotros />
       <About />
       <Services />
-      <Video />
       <Promociones/>
       <BarraContact />
-      <Galery />
 
       <Footer />
     </div>

@@ -25,6 +25,17 @@ footer {
   background-color: black;
   padding: 15px;
 }
+.footer-1 {
+  background-color: #357ea5;
+  padding: 15px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  height: 200px;
+}
 .footer-footer p {
   color: #fff;
   font-size: 0.9em;
@@ -33,9 +44,21 @@ footer {
   color: #fff;
   font-size: 0.9em;
   text-decoration: none;
+  margin-bottom: 20px;
+  margin-top: 20px;
 }
 .footer-footer a:nth-child(2) {
   margin: 7px 12px;
+}
+.footer-footer img {
+  width: 30px;
+}
+
+.item-footer-footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 .btn-rosa {
   display: block;
@@ -92,7 +115,8 @@ footer {
     background-color: black;
     padding: 15px;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
   }
   .footer-footer p {
     color: #fff;
@@ -123,8 +147,10 @@ footer {
     transform: scale(0.9);
     transition: all 0.5s ease;
   }
-  .item-footer-footer:nth-child(2) {
+  .item-footer-footer {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
 }

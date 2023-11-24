@@ -1,6 +1,6 @@
 .barra-contact {
   width: 100%;
-  background-color: #3e606f;
+  background-color: #357ea5;
 }
 .container-contact {
   width: 95%;
@@ -49,7 +49,7 @@
 @media (min-width: 768px) {
   .barra-contact {
     width: 100%;
-    background-color: #3e606f;
+    background-color: #357ea5;
     padding: 10px;
   }
   .container-contact {
@@ -91,7 +91,7 @@
   .item-contact a {
     display: block;
     width: 200px;
-    background-color: #3e606f;
+    background-color: #357ea5;
     padding: 10px;
     text-align: center;
     text-decoration: none;

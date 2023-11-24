@@ -25,8 +25,8 @@
   justify-items: center;
 }
 .card {
-  width: 190px;
-  height: 254px;
+  width: 210px;
+  height: 270px;
   background: #07182E;
   position: relative;
   display: flex;
@@ -37,12 +37,14 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  padding: 20px;
 }
 
 .card h2 {
   z-index: 1;
   color: white;
-  font-size: 2em;
+  text-align: center;
+  font-size: 1.4em;
 }
 
 .card::before {
@@ -68,7 +70,7 @@
 .card::after {
   content: '';
   position: absolute;
-  background: #07182E;
+  background: #0a2241;
   ;
   inset: 5px;
   border-radius: 15px;
@@ -80,10 +82,11 @@
 
 
 .card img {
-  width: 90px;
-  height: 90px;
+  width: 70px;
+  height: 70px;
   object-fit: cover;
   z-index: 9;
+  margin-bottom: 10px;
 }
 .btn-services {
   display: block;
@@ -95,6 +98,8 @@
   color: #fff;
   font-size: 1.1em;
   z-index: 99;
+  text-decoration: none;
+  text-align: center;
 }
 .modal-services-home {
   position: fixed;
@@ -109,6 +114,28 @@
   align-items: center;
   transform: scale(0);
   transition: 0.7s;
+}
+.container-expertos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 20px 20px;
+}
+.texto-expertos p {
+  text-align: justify;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+.container-protesis .hr-experto {
+  width: 80%;
+}
+.hr-experto {
+  margin-bottom: 20px;
+  width: 80%;
+}
+.container-expertos iframe {
+  width: 100%;
 }
 .modal-services-home.openModal {
   transform: scale(1);
@@ -184,11 +211,12 @@
     font-size: 2.5em;
   }
   .container-services {
-    width: 90%;
+    width: 70%;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 45px;
     margin: 20px auto;
+    justify-content: center;
   }
   .item-services {
     display: flex;
@@ -322,6 +350,20 @@
     text-align: center;
     padding: 10px;
     position: relative;
+  }
+  .container-expertos {
+    flex-direction: row;
+    padding: 20px 40px;
+  }
+  .container-protesis {
+    margin-top: 40px;
+  }
+  .texto-expertos {
+    max-width: 600px;
+    padding-right: 40px;
+  }
+  .texto-expertos p {
+    font-size: 1.4em;
   }
   #btnAncla:before {
     content: "Agendar Cita";

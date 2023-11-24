@@ -10,6 +10,8 @@ import Services8 from "../assets/cirugia-bucal.png";
 import "../styles/services.css";
 
 const Services = () => {
+  {/*id="8"
+            onClick={(e) => handleModal(e, !isModal)} */}
   const Servicios = [
     {
       id: 1,
@@ -105,91 +107,91 @@ const Services = () => {
       <div className="container-services">
         <div className="card">
           <img src={Services1} alt="" />
-          <h2>Odontología General</h2>
-          <button
+          <h2>Zirconio</h2>
+          <a
             className="btn-services"
-            id="1"
-            onClick={(e) => handleModal(e, !isModal)}
+            href="https://api.whatsapp.com/send?phone=525619107396"
+            target="_blank"
           >
             Ver más
-          </button>
+          </a>
         </div>
         <div className="card">
           <img src={Services2} alt="" />
-          <h2>Odontología Estética</h2>
-          <button
+          <h2>Metal Porcelana</h2>
+          <a
             className="btn-services"
-            id="2"
-            onClick={(e) => handleModal(e, !isModal)}
+            href="https://api.whatsapp.com/send?phone=525619107396"
+            target="_blank"
           >
             Ver más
-          </button>
-        </div>
-        <div className="card">
-          <img src={Services3} alt="" />
-          <h2>Ortodoncia</h2>
-          <button
-            className="btn-services"
-            id="3"
-            onClick={(e) => handleModal(e, !isModal)}
-          >
-            Ver más
-          </button>
-        </div>
-        <div className="card">
-          <img src={Services4} alt="" />
-          <h2>Endodoncia</h2>
-          <button
-            className="btn-services"
-            id="4"
-            onClick={(e) => handleModal(e, !isModal)}
-          >
-            Ver más
-          </button>
-        </div>
-        <div className="card">
-          <img src={Services5} alt="" />
-          <h2>Prótesis</h2>
-          <button
-            className="btn-services"
-            id="5"
-            onClick={(e) => handleModal(e, !isModal)}
-          >
-            Ver más
-          </button>
-        </div>
-        <div className="card">
-          <img src={Services6} alt="" />
-          <h2>Cirugía Oral</h2>
-          <button
-            className="btn-services"
-            id="6"
-            onClick={(e) => handleModal(e, !isModal)}
-          >
-            Ver más
-          </button>
+          </a>
         </div>
         <div className="card">
           <img src={Services7} alt="" />
-          <h2>Implantología Dental</h2>
-          <button
+          <h2>Trabajos sobre Implantes</h2>
+          <a
             className="btn-services"
-            id="7"
-            onClick={(e) => handleModal(e, !isModal)}
+            href="https://api.whatsapp.com/send?phone=525619107396"
+            target="_blank"
           >
             Ver más
-          </button>
+          </a>
+        </div>
+        <div className="card">
+          <img src={Services4} alt="" />
+          <h2>Disilicato de Litio</h2>
+          <a
+            className="btn-services"
+            href="https://api.whatsapp.com/send?phone=525619107396"
+            target="_blank"
+          >
+            Ver más
+          </a>
+        </div>
+        <div className="card">
+          <img src={Services5} alt="" />
+          <h2>Nexco</h2>
+          <a
+            className="btn-services"
+            href="https://api.whatsapp.com/send?phone=525619107396"
+            target="_blank"
+          >
+            Ver más
+          </a>
+        </div>
+        <div className="card">
+          <img src={Services1} alt="" />
+          <h2>Procesos Metálicos</h2>
+          <a
+            className="btn-services"
+            href="https://api.whatsapp.com/send?phone=525619107396"
+            target="_blank"
+          >
+            Ver más
+          </a>
+        </div>
+        <div className="card">
+          <img src={Services5} alt="" />
+          <h2>Flexibles</h2>
+          <a
+            className="btn-services"
+            href="https://api.whatsapp.com/send?phone=525619107396"
+            target="_blank"
+          >
+            Ver más
+          </a>
         </div>
         <div className="card">
           <img src={Services8} alt="" />
-          <h2>Periodoncia</h2>
-          <button
+          <h2>Acrílicos</h2>
+          <a
             className="btn-services"
-            id="8"
-            onClick={(e) => handleModal(e, !isModal)}
+            href="https://api.whatsapp.com/send?phone=525619107396"
+            target="_blank"
           >
             Ver más
-          </button>
+          </a>
         </div>
         <div className="card item-8">
           <h2>
@@ -215,6 +217,27 @@ const Services = () => {
       >
         <i class="fa-solid fa-x" onClick={() => setIsModal(false)}></i>
         <div className="container-modal-services" id="modalContainer"></div>
+      </div>
+
+
+      <div className="container-protesis">
+        <div className="title">
+          <h2>Expertos en Prótesis Dentales</h2>
+          <hr className="hr-experto"/>
+        </div>
+        <div className="container-expertos">
+          <div className="texto-expertos">
+            <p>Somos especialistas en elaboración de prótesis de alta estética y larga duración, contamos con la mejor tecnología para desarrollar trabajos estéticos y eficaces.Nos gustaría ayudarte a consentir a tus pacientes contáctanos para costos y promociones.</p>
+          </div>
+          <iframe 
+            width="560" 
+            height="315" 
+            src="https://www.youtube.com/embed/c6UjVEePQNY?si=NpU7GbcNCCpMX6MC" 
+            title="YouTube video player" 
+            frameborder="0" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+            allowfullscreen></iframe>
+        </div>
       </div>
     </div>
   );
