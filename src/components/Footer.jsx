@@ -48,7 +48,7 @@ const Footer = () => {
         </div>
         <div className="footer-footer">
           <div className="item-footer-footer">
-            <a href="facebook.com" target="_blank">
+            <a href="https://www.facebook.com/DentriMaker" target="_blank">
               <img src={facebook} alt="" />
             </a>
             <p>© 2023 Todos los derechos reservados Dentrimaker.</p>

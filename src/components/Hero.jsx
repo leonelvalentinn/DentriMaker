@@ -56,7 +56,7 @@ const Hero = () => {
           <h2>Laboratorio Dental en CDMX</h2> <br />
           <p>Laboratorio Dental con envíos a domicilio en toda la ciudad. Cotiza tus trabajos.</p>
           <div className="botones">
-            <a href="https://api.whatsapp.com/send/?phone=5619107396">5619107396</a>
+            <a href="https://api.whatsapp.com/send/?phone=5619107396"><i class="fi fi-brands-whatsapp"></i> 5619107396</a>
             <a href="tel:5619107396">Llamada</a>
           </div>
         </div>
